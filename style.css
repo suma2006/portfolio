@@ -7,38 +7,34 @@ body {
 }
 h1 {
     color: #f0eaea;
-    text-shadow: 3px 3px 5px  #0686ef;
+    text-shadow: 3px 3px 5px  #8914f0;
 }
 h2{
    color: #f36609;
    text-shadow: 2px 2px 5px#0686ef ;
+   font-size: xx-large;
    
 
 }
 h3{
+    color:#6417cf;
+    font-size:larger
+}
+h4{
     color: #97e983;
 }
-@keyframes example{
-   0%   {background-color:#0d3f68; left:0px; top:0px;}
-  25%  {background-color:#686861; left:200px; top:0px;}
-  50%  {background-color:#393931; left:200px; top:200px;}
-  75%  {background-color:#0c0000; left:0px; top:200px;}
-  100% {background-color:#225680; left:0px; top:0px;}
-}
+
 
 
 .navbar {
             text-align: right;
             margin-top: 10px;
             margin-bottom: 20px;
-            background: #0d3f68;
+            background: #000000;
             border: #4783b4;
             border-style: double;
             padding: 5px;
-            border-radius:10px ; 
-            animation-name:example;
-            animation-duration: 5s;
-            animation-iteration-count: infinite;
+            border-radius:10px ;       
             
             
             
