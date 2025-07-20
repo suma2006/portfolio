@@ -1,0 +1,93 @@
+body {
+    background-image: linear-gradient(to right, #000000,#393931,#686861); 
+    padding: 20px;
+    
+    font-style: normal;   
+
+}
+h1 {
+    color: #f0eaea;
+    text-shadow: 3px 3px 5px  #0686ef;
+}
+h2{
+   color: #f36609;
+   text-shadow: 2px 2px 5px#0686ef ;
+   
+
+}
+h3{
+    color: #97e983;
+}
+@keyframes example{
+   0%   {background-color:#0d3f68; left:0px; top:0px;}
+  25%  {background-color:#686861; left:200px; top:0px;}
+  50%  {background-color:#393931; left:200px; top:200px;}
+  75%  {background-color:#0c0000; left:0px; top:200px;}
+  100% {background-color:#225680; left:0px; top:0px;}
+}
+
+
+.navbar {
+            text-align: right;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            background: #0d3f68;
+            border: #4783b4;
+            border-style: double;
+            padding: 5px;
+            border-radius:10px ; 
+            animation-name:example;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            
+            
+            
+        }
+ .navbar a {
+            margin-right: 15px;
+            margin-left: 15px;
+            text-decoration: none;
+            color: #6cc3e9;
+            text-shadow:2px 2px 5px #f36609;
+            font-weight: bolder;
+            font-size: large;
+        }
+
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    
+} 
+ul,li{
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    font-size: large; 
+}
+#contact {
+    padding: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-links a {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #eef3f7;
+    background-color: #0d3f68;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: large;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-links a:hover {
+    background-color: #225680;
+    color: #d1d10a;
+    transform: scale(1.1);
+}
+
